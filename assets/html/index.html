@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Login</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container login-container">
+      <div class="row">
+        <div class="col-md-6 logo">
+          <img src="../images/lado1.png" alt="LadoLogo" class="img-side1" />
+          <img src="../images/Logo.png" alt="Logo Elevate" class="img-fluid" />
+        </div>
+        <div class="col-md-6">
+          <div class="login-form">
+            <h1 class="text-center">Login</h1>
+            <form action="#" method="POST">
+              <div class="form-group">
+                <label for="username">Usuário:</label>
+                <input
+                  type="text"
+                  id="username"
+                  name="username"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="password">Senha:</label>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <button type="submit" class="btn btn-success btn-block">
+                Entrar
+              </button>
+            </form>
+            <p class="text-center">
+              Não tem uma conta? <a href="#">Cadastre-se</a>
+            </p>
+          </div>
+        </div>
+        <img src="../images/lado2.png" alt="LadoLogo" class="img-side2" />
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
